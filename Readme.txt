@@ -1,5 +1,4 @@
 Name: Victor Yang
-Student #: 101117545
 
 How to run program:
 - Go to terminal and enter: node trivia-server.js
