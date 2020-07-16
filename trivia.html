@@ -1,0 +1,31 @@
+<<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    Login: <input type="textbox" id="name"><button type="button" onclick="joinGame()">Join Game</button>
+    <!--call input.hidden == true-->
+    <div id="trivia_question"> <!--creates a div used for the test background-->
+
+    </div>
+    <div id="your_score"> <!--creates a div that displays player's score-->
+
+    </div>
+    <div id="display_of_scores"> <!--creates a div that displays other players' names and scores-->
+
+    </div>
+      <div>
+        <ul id="messages"></ul>
+        <input id="message" autocomplete="off" /><button onclick="sendMessage()">Send</button>
+        <select id="dd_list" class="" name="">
+          <option value="All">All</option>
+        </select>
+      </div>
+    <!-- Import socket.io Javascript and our chat.js -->
+	  <script src="/socket.io/socket.io.js"></script>
+    <script src="trivia.js"></script>
+
+  </body>
+</html>
